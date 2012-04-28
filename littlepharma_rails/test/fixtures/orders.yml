@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  pickupTime: 2012-04-28 13:59:43
+  rxNumber: MyText
+
+two:
+  pickupTime: 2012-04-28 13:59:43
+  rxNumber: MyText

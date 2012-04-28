@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Pickuptime:</b>
+  <%= @order.pickupTime %>
+</p>
+
+<p>
+  <b>Rxnumber:</b>
+  <%= @order.rxNumber %>
+</p>
+
+
+<%= link_to 'Edit', edit_order_path(@order) %> |
+<%= link_to 'Back', orders_path %>
