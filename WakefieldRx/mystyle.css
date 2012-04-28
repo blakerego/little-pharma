@@ -1,0 +1,36 @@
+html, body {
+ 	 height: 100%;
+ 	 width: 100%;
+ 	 padding: 0;
+ 	 margin: 0;
+}
+
+#full-screen-background-image {
+ 	z-index: -999;
+ 	min-width: 1024px;
+  	width: 100%;
+  	height: auto;
+  	position: fixed;
+  	top: 0;
+  	left: 0; 
+}
+
+#outerbox {
+	position: absolute;
+	width: 100%;
+	min-height: 400px;
+	margin: 0px auto auto auto;
+	color: #333;
+	border: solid 1px blue;
+	left:0px;
+	right:200px;
+}
+
+#sign {
+	position:relative;
+	width: 700px;
+	height: 400px;
+	border: solid 1px red;
+	top:0;
+	left: 15%;
+}
