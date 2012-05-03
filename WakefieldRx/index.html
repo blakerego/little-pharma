@@ -1,23 +1,25 @@
 <!--#include virtual="header.html" -->
 
 
-  <img alt="full screen background image" src="Pharmacy4.png" id="full-screen-background-image" /> 
-  <div id="outerbox">
+  <img alt="full screen background image" src="Pharmacy6.png" id="full-screen-background-image" /> 
+
+
+  <div id="outerbox">	
   	<div id="sign">
-  		<img src="sign4.png"/>
+  		<map name="banner" id="banner">
+			<area alt="new page" shape="rect" coords="7, 167, 139, 214" href="index.html"/>
+			<area alt="new page" shape="rect" coords="139, 167, 288, 214" href="about.html"/>
+			<area alt="new page" shape="rect" coords="288, 167, 523, 214" href="directions.html"/>
+			<area alt="new page" shape="rect" coords="523, 167, 683, 214" href="photos.html"/>
+		</map>
+		<img src="sign4.png" usemap="#banner" width="711" height="234"/>		
+  	</div>
+  	<div id ="hours"> 
+  		<map name="refill" id="refill">
+  			<area alt="new page" shape="rect" coords="7, 238, 214, 287" href="refill.html"/>
+  		</map>	
+  		<img src="hoursdd.png" usemap="#refill" width="249" height="334"/> 
   	</div>	
   </div>
-
-
-
-	
-
-	
-
-
-
-
-
-
 
 <!--#include virtual="footer.html" -->

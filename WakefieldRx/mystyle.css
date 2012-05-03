@@ -21,16 +21,31 @@ html, body {
 	min-height: 400px;
 	margin: 0px auto auto auto;
 	color: #333;
-	border: solid 1px blue;
+	/*border: solid 1px blue;*/
 	left:0px;
 	right:200px;
+	overflow: hidden;
 }
 
 #sign {
-	position:relative;
+	position: relative;
 	width: 700px;
 	height: 400px;
-	border: solid 1px red;
+	/*border: solid 1px red;*/
 	top:0;
 	left: 15%;
+	z-index:10;
+	float:left;
+}
+
+
+#hours {
+	position: relative;
+	width: 250px;
+	height: 300px;
+	/*border: solid 1px green;*/
+	left: 18%;
+	top:0;
+	z-index:11;
+	overflow: hidden;
 }
