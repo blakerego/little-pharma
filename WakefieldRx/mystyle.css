@@ -1,8 +1,12 @@
 html, body {
- 	 height: 100%;
- 	 width: 100%;
- 	 padding: 0;
- 	 margin: 0;
+ 	height: 100%;
+ 	width: 100%;
+ 	padding: 0;
+ 	margin: 0;
+}
+@font-face {
+    font-family: "Titillium Text 22L";
+    src: url(http://www.blakerego.com/wakefieldrx/TitilliumText22L003.otf) format("opentype");
 }
 
 #full-screen-background-image {
@@ -16,22 +20,22 @@ html, body {
 }
 
 #outerbox {
-	position: absolute;
+	z-index: 2;
+	position: relative;
 	width: 100%;
-	min-height: 400px;
+	height:100%;
 	margin: 0px auto auto auto;
 	color: #333;
-	/*border: solid 1px blue;*/
+	border: solid 1px blue;
 	left:0px;
 	right:200px;
-	overflow: hidden;
 }
 
 #sign {
-	position: relative;
+	position: absolute;
 	width: 700px;
 	height: 400px;
-	/*border: solid 1px red;*/
+	border: solid 1px red;
 	top:0;
 	left: 15%;
 	z-index:10;
@@ -40,12 +44,52 @@ html, body {
 
 
 #hours {
-	position: relative;
+	position: absolute;
 	width: 250px;
 	height: 300px;
-	/*border: solid 1px green;*/
-	left: 18%;
+	border: solid 1px green;
+	left: 75%;
+	padding:0 0 0 50px;
 	top:0;
 	z-index:11;
 	overflow: hidden;
+}
+
+#whiteSpace {
+	position: absolute;
+	top:260px;
+	width:700px;
+	height:1000px;
+	left:16%;
+	z-index:12;
+	float:left;
+	border: solid 1px blue;
+}
+
+#aboutHeader{
+	position:absolute;
+	top:270px;
+	left:215px;
+	z-index:13;
+	font-family: "Titillium Text 22L";
+	font-size:40px;
+}
+#aboutText{
+	position:absolute;
+	width:600px;
+	min-width:400px;
+	overflow: hidden;
+	height:600px;
+	top:360px;
+	left:215px;
+	z-index:14;
+	font-family: "Titillium Text 22L";
+	font-size:16px;
+	border: solid 1px purple;
+}
+
+img.floatRight{
+	float:right;
+	margin:10px;
+	z-index:14;
 }
