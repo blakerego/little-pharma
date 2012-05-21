@@ -43,7 +43,6 @@ html, body {
 
 }
 
-
 #hours {
 	position: absolute;
 	width: 250px;
@@ -99,3 +98,26 @@ img.floatRight{
 	z-index:14;
 }
 
+#directions{
+	position: absolute;
+	top:380px;
+	left:300px;
+	z-index:16;
+	float:left;
+	border-style:solid;
+	border-width:1px;
+	border-color:black;
+}
+
+#directionText{
+	position:absolute;
+	width:600px;
+	min-width:400px;
+	overflow: hidden;
+	height:200px;
+	top:300px;
+	left:18%;
+	z-index:14;
+	font-family: "Titillium Text 22L";
+	font-size:16px;
+}
